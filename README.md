@@ -1,7 +1,10 @@
-# 🚨 Atividade com Python e GitHub Actions (versão conflito)
-Linha exclusiva do novo conflito
+# 🚀 Pipeline com Python e GitHub Actions
 
-Este repositório é parte da **atividade de aula**, para praticar conflitos no Git.
+Este repositório é um **exemplo didático** de como configurar uma pipeline simples 
+usando **Python + pytest** no **GitHub Actions**.
+
+A pipeline é executada sempre que alguém abre um **Pull Request** para a branch `develop`.  
+Ela instala dependências, roda os testes e só permite o merge se todos os testes passarem ✅
 
 ## 📂 Estrutura do projeto
 
@@ -18,11 +21,10 @@ atividade-git-pipeline/
 
 ````
 
-
 ## 📚 Referências
 
 * [Documentação oficial do GitHub Actions](https://docs.github.com/actions)
+
 * [Documentação do pytest](https://docs.pytest.org/)
+
 * [Git - Livro Oficial](https://git-scm.com/book/pt-br/v2)
-
-
